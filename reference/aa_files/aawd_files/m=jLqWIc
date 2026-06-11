@@ -1,0 +1,10 @@
+loaded_h_0(function(_){var window=this;
+_.v("jLqWIc");
+var eTB=class extends _.m{constructor(a){super(a)}};var fTB=[0,_.E,_.D,_.E,-1];var gTB=_.Pb(eTB,fTB),hTB=_.Qb(fTB);var iTB=function(a,b){var c=document.querySelector(`#${a.params.npa}`);if(!c)return!1;a.Jh=c instanceof HTMLTemplateElement?c.content.cloneNode(!0):a.params.cloneElement?c.cloneNode(!0):c;a.params.cpa&&a.Jh.classList.add(a.params.cpa);a.Jh.parentElement&&(a.i8a=a.Jh.parentElement,_.Hg(a.Jh,a.Jh.parentElement));b.appendChild(a.Jh);return!0},jTB=function(a){return new Promise(b=>{var c=null,d=!1,e=new MutationObserver(g=>{for(let h of g)for(let k of h.addedNodes)if(k.id===a.params.npa){c();return}});
+e.observe(document.body,{childList:!0,subtree:!0});var f=(0,_.co)(()=>{c()},5E3);c=()=>{d||(d=!0,e.disconnect(),(0,_.eo)(f),b())}})},kTB=class{constructor(a){this.params=a;this.i8a=this.Jh=null;if(_.YFe&&!document.querySelector(`#${this.params.npa}`))throw Error("tB`"+this.params.npa);}getType(){return 31}Mz({Zj:a,Dy:b}){var {node:c,eF:d}=_.JL(_.Q5e);b({dispatch:()=>void d({Bg:_.HL(a)})});a.appendChild(c);b=iTB(this,a);_.XFe&&!b&&_.Og(a,"gZgazf");return{status:b?2:1}}async render({Zj:a}){var b=(0,_.Sf)(),
+c=b();b=b(1);try{if(!this.Jh&&!iTB(this,a)){b(await c(jTB(this)));let d=iTB(this,a);if(_.WFe&&!d){_.Og(a,"gZgazf");return}}this.params.Dpa&&this.UI("show")}finally{c()}}w_b(){if(this.params.cpa){let a;(a=this.Jh)==null||a.classList.remove(this.params.cpa)}this.params.Dpa&&this.UI("hide");this.Jh&&this.i8a&&(this.Jh.removeAttribute("jsowner"),this.i8a.appendChild(this.Jh))}UI(a){if(this.params.Dpa){let b,c,d=((b=this.Jh)==null?0:b.matches(this.params.Dpa))?this.Jh:(c=this.Jh)==null?void 0:c.querySelector(this.params.Dpa);
+d&&_.Wv([new _.Yn(d,a)])}}u4a(){return{n3a:!0}}V3a(){return{n3a:!0}}serialize(){return hTB(this.vX())}vX(){var a=new eTB;a=_.Vg(a,1,this.params.npa);a=_.Ph(a,2,!!this.params.cloneElement);a=_.Vg(a,3,this.params.cpa);return _.Vg(a,4,this.params.Dpa)}};_.$f(_.YAq,class extends _.oo{getInstance(a){return new kTB(a)}Bx(a){a=gTB(a);return new kTB({npa:_.u(a,1),cloneElement:!!_.z(a,2),cpa:_.u(a,3),Dpa:_.u(a,4)})}});
+
+_.x();
+});
+// Google Inc.
